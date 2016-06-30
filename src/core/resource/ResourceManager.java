@@ -7,7 +7,7 @@ import java.util.HashMap;
 // This resource manager uses the class type to group like-resource types together.
 // When a resource is no longer held by anything, it is removed.
 // 
-// Example resrouce table:
+// Example resource table:
 // Bitmap
 // --8x8 character set
 // --16x16 character set
