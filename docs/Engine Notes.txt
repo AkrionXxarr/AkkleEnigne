@@ -1,0 +1,47 @@
+Engine notes:
+
+=== Over all ===
+- Need to change how resources are obtained (e.g. filepath).
+
+=== Main engine ===
++ Haven't had to touch this much at all, as intended.
+
+=== Event System ===
++ By far my favorite component of the entire engine thus far.
++ Very useful in thinning out the need for referencing objects.
+~ Need to see how making Event.Listener an interface works out.
+- Name clashes with other java libraries
+
+=== Audio System ===
+- Stream needs a way to better control various aspects, such as volume and stopping the stream.
+
+=== Input System ===
+- Screen scale not accounted for with mouse coordinates
+
+=== Render Context ===
+- No rotation yet!!
+- Render/draw names aren't consistent. Decide on one.
+
+=== Graphics ===
+~ Sprite renderer component could have its positioning scheme looked into
+
+=== Obj/Comp Graph ===
+~ Perhaps there -can- be a use for inheriting GameObjects...?
+- onAdd/onRemove/start/stop needs a better system
+~ Untested but signs are pointing towards this being a good system
+
+=== Console ===
++ Already useful
+- Code is a bit clunky, needs to be redone
+~ Should rethink how the in game console and System.out interact
+
+=== Logging ===
+
+=== Resource Management ===
++ Simple and straight forward
+
+=== Physics ===
+~ Largely untested
+
+=== Scenes ===
+~ Seem to work well?
